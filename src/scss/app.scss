@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 @import "~bulma/bulma";
 
@@ -25,6 +26,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 50%;
+  
 }
 
 .main {
@@ -38,6 +40,8 @@ html {
 .terms {
   height: 400px;
   padding: 70px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .button-container {
